@@ -1,3 +1,5 @@
-## 1.0.0
+## 1.0.1
 
-- 2 Flutter widgets added.
+- Update ```Readme.md``` File.
+- Update Documentation.
+- Update ```lints``` Package.

@@ -1,6 +1,6 @@
-name: flutter_widgets
+name: flutter_ui_widgets
 description: This package contains Flutter UI widgets that you use in daily life.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Hssnurrahman/flutter_ui_widgets
 
 environment:
@@ -11,10 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
