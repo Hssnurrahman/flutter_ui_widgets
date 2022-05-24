@@ -52,10 +52,10 @@ class FWFloatingActionButton extends StatelessWidget {
       onPressed: onPressed,
       backgroundColor: backgroundColor,
       tooltip: toolTip,
-      child: child,
       foregroundColor: foregroundColor,
       splashColor: splashColor,
       mini: mini,
+      child: child,
     );
   }
 }
