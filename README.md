@@ -1,8 +1,8 @@
-## Flutter Widgets Flutter Package
+## Flutter UI Widgets Flutter Package
 
 This package makes different Flutter UI widgets implementation easy for you.
 
-## Flutter Widgets
+## Flutter UI Widgets
 
 The list of widgets include in this package:
 
@@ -12,25 +12,21 @@ The list of widgets include in this package:
 
 ## Installation
 
----
-
 ```dart
 import 'package:flutter_ui_widgets/flutter_ui_widgets.dart';
 ```
 
 ## Usage
 
----
-
 ## AppBar
 
 ```dart
 FlutterAppBar(
-        title: "Flutter AppBar",
-        centerTitle: true,
-        backgroundColor: Colors.grey,
-        gradient: LinearGradients.pinkAmber,
-      ),
+    title: "Flutter AppBar",
+    centerTitle: true,
+    backgroundColor: Colors.grey,
+    gradient: LinearGradients.pinkAmber,
+),
 ```
 
 Some other properties same as **AppBar** widget.
@@ -41,17 +37,16 @@ Some other properties same as **AppBar** widget.
 
 ```dart
 FlutterFloatingActionButton(
-        onPressed: () {},
-        child: Icon(
-          Icons.add,
-          size: 30,
-        ),
-      ),
+    onPressed: () {},
+    child: Icon(
+        Icons.add,
+        size: 30,
+    ),
+),
 ```
 
 Some other properties same as **FloatingActionButton** widget.
 
----
 
 <!-- ## Properties include in **FlutterAppBar**
 

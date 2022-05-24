@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/flutter_ui_widgets.dart';
+import 'package:flutter_ui_widgets/flutter_ui_widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Neumorphic Loader'),
+        title: const Text(
+          "Flutter UI Widgets",
+        ),
       ),
       body: FWAppBar(
         title: "Example App",
