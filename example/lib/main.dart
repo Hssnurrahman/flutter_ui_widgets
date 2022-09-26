@@ -32,12 +32,12 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Flutter UI Widgets",
-        ),
-      ),
+          title: const FWText(
+        text: "Flutter UI Widgets",
+        textAlign: TextAlign.center,
+      )),
       body: FWAppBar(
-        title: "Example App",
+        title: "Flutter Ui Widgets",
         gradient: LinearGradients.lightBlueDarkBlue,
       ),
       floatingActionButton: FWFloatingActionButton(
